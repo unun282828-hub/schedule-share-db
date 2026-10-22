@@ -1,0 +1,4196 @@
+{
+ "schema": "lib-share-1",
+ "updatedAt": "2026-10-22T06:21:49.086Z",
+ "cases": [
+  {
+   "id": "muno9959jdvlf",
+   "vid": "K-42",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-06-01",
+   "decidedOn": "2026-06-24",
+   "notifiedOn": "2026-06-24",
+   "constructionDoneOn": "2026-09-23",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2026-10-15",
+    "start": "13:00",
+    "end": "15:00",
+    "slotId": "munsmniv0c8gw",
+    "on": "2026-09-30",
+    "notified": "2026-10-05",
+    "acked": "2026-10-05"
+   },
+   "slots": [
+    {
+     "id": "munsmniv0c8gw",
+     "date": "2026-10-15",
+     "start": "13:00",
+     "end": "15:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munsn20nqk7so"
+    }
+   ],
+   "events": [
+    {
+     "id": "munsml5kaec1d",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:38"
+    },
+    {
+     "id": "munsn20nqk7so",
+     "type": "先方返信",
+     "date": "2026-09-18",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munsmniv0c8gw"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:38"
+    },
+    {
+     "id": "l140016mlj8",
+     "type": "確定連絡",
+     "date": "2026-10-05",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno99597hztg",
+   "vid": "K-20",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-06-10",
+   "decidedOn": "2026-06-24",
+   "notifiedOn": "2026-06-24",
+   "constructionDoneOn": "",
+   "constructionStatus": "調整中",
+   "constructionStatusOn": "2026-09-17",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0063",
+     "date": "2027-01-13",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0064",
+     "date": "2027-01-28",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg001v84gl",
+     "type": "先方返信",
+     "date": "2026-09-17",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno9959rm58b",
+   "vid": "K-01",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-06-01",
+   "decidedOn": "2026-06-24",
+   "notifiedOn": "2026-06-24",
+   "constructionDoneOn": "2027-02-28",
+   "constructionStatus": "",
+   "constructionStatusOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "ldg004mt23m",
+     "date": "2027-02-01",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "ldg005uzonj",
+     "flex": {
+      "type": "range",
+      "label": "2027年2月前半（日時いつでも）",
+      "from": "2027-02-01",
+      "to": "2027-02-15"
+     }
+    },
+    {
+     "id": "s0039",
+     "date": "2027-02-10",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "e0040",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg0031hham",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg005uzonj",
+     "type": "先方返信",
+     "date": "2026-09-24",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "ldg004mt23m"
+     ],
+     "answers": {},
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "e0040",
+     "type": "打診",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "s0039"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno9959jm271",
+   "vid": "K-46",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-05-29",
+   "decidedOn": "2026-06-24",
+   "notifiedOn": "2026-06-24",
+   "constructionDoneOn": "2026-10-20",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2026-10-27",
+    "start": "13:00",
+    "end": "15:00",
+    "slotId": "munsp2q9jz2qi",
+    "on": "2026-09-30",
+    "notified": "",
+    "acked": ""
+   },
+   "slots": [
+    {
+     "id": "munsp2q9jz2qi",
+     "date": "2026-10-27",
+     "start": "13:00",
+     "end": "15:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munsplis3uph4"
+    }
+   ],
+   "events": [
+    {
+     "id": "munsokjsnogm3",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:39"
+    },
+    {
+     "id": "munsplis3uph4",
+     "type": "先方返信",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munsp2q9jz2qi"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:40"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995ai4hu2",
+   "vid": "K-24",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-06-23",
+   "decidedOn": "2026-07-03",
+   "notifiedOn": "2026-07-03",
+   "constructionDoneOn": "2026-08-31",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2026-10-19",
+    "start": "15:00",
+    "end": "17:00",
+    "slotId": "munsqp1zk4m04",
+    "on": "2026-09-30",
+    "notified": "2026-09-28",
+    "acked": "2026-09-28"
+   },
+   "slots": [
+    {
+     "id": "munsqp1zk4m04",
+     "date": "2026-10-19",
+     "start": "15:00",
+     "end": "17:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munsr71rrf7p9"
+    }
+   ],
+   "events": [
+    {
+     "id": "munsqm20hbzd4",
+     "type": "打診",
+     "date": "2026-09-25",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:41"
+    },
+    {
+     "id": "munsr71rrf7p9",
+     "type": "先方返信",
+     "date": "2026-09-25",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munsqp1zk4m04"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:41"
+    },
+    {
+     "id": "ldg006bhm77",
+     "type": "確定連絡",
+     "date": "2026-09-28",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg007z9o8c",
+     "type": "連絡",
+     "date": "2026-09-30",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a2glsc",
+   "vid": "K-09",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-06-26",
+   "decidedOn": "2026-07-03",
+   "notifiedOn": "2026-07-03",
+   "constructionDoneOn": "2027-01-31",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2027-02-09",
+    "start": "13:30",
+    "end": "15:30",
+    "slotId": "s0014",
+    "on": "2026-10-22",
+    "notified": "2026-10-22",
+    "acked": "2026-10-22"
+   },
+   "slots": [
+    {
+     "id": "munte0knpw13p",
+     "date": "2027-02-01",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munte73xw4ulx",
+     "flex": {
+      "type": "early",
+      "label": "2月上旬",
+      "from": "2027-02-01",
+      "to": "2027-02-10"
+     }
+    },
+    {
+     "id": "s0014",
+     "date": "2027-02-09",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "muntdzzdmhkmb",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:59"
+    },
+    {
+     "id": "munte73xw4ulx",
+     "type": "先方返信",
+     "date": "2026-09-17",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munte0knpw13p"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:59"
+    },
+    {
+     "id": "e0015",
+     "type": "確定連絡",
+     "date": "2026-10-22",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "s0014"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995avxi7e",
+   "vid": "K-35",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-06-29",
+   "decidedOn": "2026-07-03",
+   "notifiedOn": "2026-07-03",
+   "constructionDoneOn": "2026-10-21",
+   "constructionStatus": "",
+   "constructionStatusOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2026-11-19",
+    "start": "13:00",
+    "end": "14:00",
+    "slotId": "l1400489bul",
+    "on": "2026-10-13",
+    "notified": "2026-10-13",
+    "acked": "2026-10-13"
+   },
+   "slots": [
+    {
+     "id": "l14002w4n38",
+     "date": "2026-10-29",
+     "start": "13:00",
+     "end": "14:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "l14005leqnt",
+     "receivedIn": ""
+    },
+    {
+     "id": "l14003e3tir",
+     "date": "2026-10-30",
+     "start": "13:00",
+     "end": "14:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "l14005leqnt",
+     "receivedIn": ""
+    },
+    {
+     "id": "l1400489bul",
+     "date": "2026-11-19",
+     "start": "13:00",
+     "end": "14:00",
+     "source": "当方",
+     "answer": "○",
+     "sentIn": "l14008oq40h",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg008app5e",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "l14005leqnt",
+     "type": "打診",
+     "date": "2026-10-09",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "l14002w4n38",
+      "l14003e3tir"
+     ],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l14006tsk0q",
+     "type": "先方返信",
+     "date": "2026-10-13",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l14007jnkdo",
+     "type": "連絡",
+     "date": "2026-10-13",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l14008oq40h",
+     "type": "確定連絡",
+     "date": "2026-10-13",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "l1400489bul"
+     ],
+     "at": "2026-10-14 14:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995ay4u96",
+   "vid": "K-32",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-06-23",
+   "decidedOn": "2026-07-03",
+   "notifiedOn": "2026-07-03",
+   "constructionDoneOn": "2026-10-31",
+   "constructionStatus": "",
+   "constructionStatusOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2026-10-28",
+    "start": "10:00",
+    "end": "12:00",
+    "slotId": "munsskamcsd8i",
+    "on": "2026-10-21",
+    "notified": "2026-10-21",
+    "acked": "2026-10-21"
+   },
+   "slots": [
+    {
+     "id": "munsskamcsd8i",
+     "date": "2026-10-28",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "○",
+     "sentIn": "munsrry7z1g4s",
+     "receivedIn": ""
+    },
+    {
+     "id": "ldg010f2shu",
+     "date": "2026-10-26",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "ldg011uirpf",
+     "flex": {
+      "type": "range",
+      "label": "10/26〜10/30（時間は財団が指定）",
+      "from": "2026-10-26",
+      "to": "2026-10-30"
+     }
+    }
+   ],
+   "events": [
+    {
+     "id": "munsrry7z1g4s",
+     "type": "打診",
+     "date": "2026-09-25",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "munsskamcsd8i"
+     ],
+     "at": "2026-09-30 16:42"
+    },
+    {
+     "id": "ldg0091mf8t",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg011uirpf",
+     "type": "先方返信",
+     "date": "2026-09-24",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "ldg010f2shu"
+     ],
+     "answers": {},
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "e0007",
+     "type": "確定連絡",
+     "date": "2026-10-21",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "munsskamcsd8i"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995aexuvc",
+   "vid": "K-40",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-06-30",
+   "decidedOn": "2026-07-21",
+   "notifiedOn": "2026-07-21",
+   "constructionDoneOn": "",
+   "constructionStatus": "調整中",
+   "constructionStatusOn": "2026-09-28",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0069",
+     "date": "2027-02-18",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0070",
+     "date": "2027-01-15",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg012w4gd0",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg013co8yp",
+     "type": "先方返信",
+     "date": "2026-09-28",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995aodofm",
+   "vid": "K-33",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-21",
+   "decidedOn": "2026-08-17",
+   "notifiedOn": "2026-08-17",
+   "constructionDoneOn": "2026-10-14",
+   "doneOn": "2026-10-08",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2026-10-08",
+    "start": "10:00",
+    "end": "12:00",
+    "slotId": "munsju5kqvpsh",
+    "on": "2026-09-30",
+    "notified": "2026-09-18",
+    "acked": "2026-09-18"
+   },
+   "slots": [
+    {
+     "id": "munsju5kqvpsh",
+     "date": "2026-10-08",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munsklrceeftu"
+    }
+   ],
+   "events": [
+    {
+     "id": "munsjrruc5pbs",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:35"
+    },
+    {
+     "id": "munsklrceeftu",
+     "type": "先方返信",
+     "date": "2026-09-18",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munsju5kqvpsh"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:36"
+    },
+    {
+     "id": "ldg014v2nno",
+     "type": "確定連絡",
+     "date": "2026-09-18",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "l140090nlqz",
+     "type": "連絡",
+     "date": "2026-10-05",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l14010wpd5o",
+     "type": "連絡",
+     "date": "2026-10-08",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l1401185n6h",
+     "type": "連絡",
+     "date": "2026-10-09",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a01pen",
+   "vid": "K-10",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-15",
+   "decidedOn": "2026-07-21",
+   "notifiedOn": "2026-07-21",
+   "constructionDoneOn": "",
+   "constructionStatus": "調整中",
+   "constructionStatusOn": "2026-09-17",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0077",
+     "date": "2027-01-13",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0078",
+     "date": "2027-01-28",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg002h1231",
+     "type": "先方返信",
+     "date": "2026-09-17",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995atn9on",
+   "vid": "K-47",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-17",
+   "decidedOn": "2026-08-21",
+   "notifiedOn": "2026-08-21",
+   "constructionDoneOn": "2026-12-31",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "l140129m1kc",
+     "date": "2026-11-17",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "e0018",
+     "receivedIn": "l14016we8tu"
+    },
+    {
+     "id": "l14013mqajp",
+     "date": "2026-11-18",
+     "start": "13:30",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "l14016we8tu"
+    },
+    {
+     "id": "l14014nhq4c",
+     "date": "2026-12-02",
+     "start": "13:30",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "l14016we8tu"
+    }
+   ],
+   "events": [
+    {
+     "id": "munuake0gn0gp",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:24"
+    },
+    {
+     "id": "ldg015wm04q",
+     "type": "先方返信",
+     "date": "2026-09-17",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "l14015ebfxw",
+     "type": "連絡",
+     "date": "2026-10-05",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l14016we8tu",
+     "type": "先方返信",
+     "date": "2026-10-13",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "l140129m1kc",
+      "l14013mqajp",
+      "l14014nhq4c"
+     ],
+     "answers": {},
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "e0018",
+     "type": "打診",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "l140129m1kc"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995akhejf",
+   "vid": "K-38",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-22",
+   "decidedOn": "2026-07-28",
+   "notifiedOn": "2026-07-28",
+   "constructionDoneOn": "2027-02-27",
+   "constructionStatus": "",
+   "constructionStatusOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2027-01-26",
+    "start": "13:30",
+    "end": "15:30",
+    "slotId": "ldg017owuxs",
+    "on": "2026-10-21",
+    "notified": "2026-10-21",
+    "acked": "2026-10-21"
+   },
+   "slots": [
+    {
+     "id": "ldg017owuxs",
+     "date": "2027-01-26",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "e0005",
+     "receivedIn": "ldg020r61fo"
+    },
+    {
+     "id": "ldg018hf0fj",
+     "date": "2027-01-27",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "ldg020r61fo"
+    },
+    {
+     "id": "ldg019etlz4",
+     "date": "2027-01-25",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "ldg020r61fo"
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg0164a5by",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg020r61fo",
+     "type": "先方返信",
+     "date": "2026-09-29",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "ldg017owuxs",
+      "ldg018hf0fj",
+      "ldg019etlz4"
+     ],
+     "answers": {},
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "e0005",
+     "type": "打診",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "ldg017owuxs"
+     ],
+     "at": "2026-10-22 12:00"
+    },
+    {
+     "id": "e0006",
+     "type": "確定連絡",
+     "date": "2026-10-21",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "ldg017owuxs"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995aq76nc",
+   "vid": "K-08",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-01",
+   "decidedOn": "2026-09-07",
+   "notifiedOn": "2026-09-07",
+   "constructionDoneOn": "",
+   "constructionStatus": "調整中",
+   "constructionStatusOn": "2026-09-17",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0059",
+     "date": "2027-02-04",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0060",
+     "date": "2027-02-17",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "munubonx4yzl9",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:25"
+    },
+    {
+     "id": "ldg0210b7w0",
+     "type": "先方返信",
+     "date": "2026-09-17",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a20307",
+   "vid": "K-44",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-14",
+   "decidedOn": "2026-07-28",
+   "notifiedOn": "2026-07-28",
+   "constructionDoneOn": "2026-12-10",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "muntq1fr7yyp7",
+     "date": "2026-12-01",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "muntqhgb2v2eu",
+     "flex": {
+      "type": "after",
+      "label": "12月以降",
+      "from": "2026-12-01",
+      "to": ""
+     }
+    },
+    {
+     "id": "s0034",
+     "date": "2026-12-02",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0035",
+     "date": "2026-12-07",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "muntpz6zdzawc",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:08"
+    },
+    {
+     "id": "muntqhgb2v2eu",
+     "type": "先方返信",
+     "date": "2026-09-24",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "muntq1fr7yyp7"
+     ],
+     "answers": {},
+     "at": "2026-09-30 17:09"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a5xlpq",
+   "vid": "K-45",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-14",
+   "decidedOn": "2026-07-28",
+   "notifiedOn": "2026-07-28",
+   "constructionDoneOn": "2026-12-10",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "muntr9t2in3fe",
+     "date": "2026-12-01",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "muntrf2jv628x",
+     "flex": {
+      "type": "after",
+      "label": "12月以降",
+      "from": "2026-12-01",
+      "to": ""
+     }
+    },
+    {
+     "id": "s0071",
+     "date": "2026-12-02",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0072",
+     "date": "2026-12-07",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "muntr6rskwqkh",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:09"
+    },
+    {
+     "id": "muntrf2jv628x",
+     "type": "先方返信",
+     "date": "2026-09-24",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "muntr9t2in3fe"
+     ],
+     "answers": {},
+     "at": "2026-09-30 17:09"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a5twkp",
+   "vid": "K-04",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-14",
+   "decidedOn": "2026-07-21",
+   "notifiedOn": "2026-07-21",
+   "constructionDoneOn": "2027-02-28",
+   "constructionStatus": "",
+   "constructionStatusOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2027-02-24",
+    "start": "13:00",
+    "end": "15:00",
+    "slotId": "s0003",
+    "on": "2026-10-20",
+    "notified": "2026-10-20",
+    "acked": "2026-10-20"
+   },
+   "slots": [
+    {
+     "id": "s0003",
+     "date": "2027-02-24",
+     "start": "13:00",
+     "end": "15:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "muntkcev7mlbk",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:04"
+    },
+    {
+     "id": "ldg022m2uyr",
+     "type": "先方返信",
+     "date": "2026-09-17",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "l14017zaplm",
+     "type": "打診",
+     "date": "2026-10-05",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "e0004",
+     "type": "確定連絡",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "s0003"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995ahvqjr",
+   "vid": "K-17",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-30",
+   "decidedOn": "2026-08-03",
+   "notifiedOn": "2026-08-03",
+   "constructionDoneOn": "2026-09-23",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2026-11-18",
+    "start": "10:00",
+    "end": "12:00",
+    "slotId": "s0016",
+    "on": "2026-10-22",
+    "notified": "2026-10-22",
+    "acked": "2026-10-22"
+   },
+   "slots": [
+    {
+     "id": "s0016",
+     "date": "2026-11-18",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "munttejp1b64y",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:11"
+    },
+    {
+     "id": "ldg0237ez19",
+     "type": "先方返信",
+     "date": "2026-09-21",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "e0017",
+     "type": "確定連絡",
+     "date": "2026-10-22",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "s0016"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995az576r",
+   "vid": "K-48",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-31",
+   "decidedOn": "2026-08-10",
+   "notifiedOn": "2026-08-10",
+   "constructionDoneOn": "2027-02-28",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2027-02-25",
+    "start": "13:00",
+    "end": "17:00",
+    "slotId": "munthxma1tynn",
+    "on": "2026-09-29",
+    "notified": "",
+    "acked": ""
+   },
+   "slots": [
+    {
+     "id": "munthxma1tynn",
+     "date": "2027-02-25",
+     "start": "13:00",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "○",
+     "sentIn": "ldg0254qmef",
+     "receivedIn": "ldg026yszyv"
+    }
+   ],
+   "events": [
+    {
+     "id": "munthm7moj7a6",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:02"
+    },
+    {
+     "id": "ldg024ctsr0",
+     "type": "先方返信",
+     "date": "2026-09-24",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg0254qmef",
+     "type": "打診",
+     "date": "2026-09-25",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "munthxma1tynn"
+     ],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg026yszyv",
+     "type": "先方返信",
+     "date": "2026-09-29",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munthxma1tynn"
+     ],
+     "answers": {
+      "munthxma1tynn": "○"
+     },
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995agvc1t",
+   "vid": "K-36",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-31",
+   "decidedOn": "2026-08-10",
+   "notifiedOn": "2026-08-10",
+   "constructionDoneOn": "2027-02-26",
+   "constructionStatus": "",
+   "constructionStatusOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0055",
+     "date": "2027-01-21",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0056",
+     "date": "2027-01-05",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "muntzwceblzr3",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:16"
+    },
+    {
+     "id": "ldg027mivyu",
+     "type": "先方返信",
+     "date": "2026-09-28",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995ajw39r",
+   "vid": "K-14",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-30",
+   "decidedOn": "2026-08-03",
+   "notifiedOn": "2026-08-03",
+   "constructionDoneOn": "2026-08-31",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0030",
+     "date": "2026-11-10",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg028zmwfq",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995asiqp2",
+   "vid": "K-05",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-03",
+   "decidedOn": "2026-08-17",
+   "notifiedOn": "2026-08-17",
+   "constructionDoneOn": "2026-12-28",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0031",
+     "date": "2026-12-02",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0032",
+     "date": "2026-12-07",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0033",
+     "date": "2026-11-25",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg029fsieu",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg030e55pi",
+     "type": "先方返信",
+     "date": "2026-09-29",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a37pg7",
+   "vid": "K-50",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-29",
+   "decidedOn": "2026-08-03",
+   "notifiedOn": "2026-08-03",
+   "constructionDoneOn": "2027-02-26",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "muntfm14so33g",
+     "date": "2027-02-01",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "e0022",
+     "receivedIn": "muntgkgzlwtax"
+    },
+    {
+     "id": "muntg1xab1v4e",
+     "date": "2027-02-02",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "muntgkgzlwtax"
+    },
+    {
+     "id": "muntg3uy2tn93",
+     "date": "2027-02-03",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "muntgkgzlwtax"
+    },
+    {
+     "id": "muntg5rr4hif6",
+     "date": "2027-02-04",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "muntgkgzlwtax"
+    },
+    {
+     "id": "muntg8wvol5n5",
+     "date": "2027-02-05",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "muntgkgzlwtax"
+    },
+    {
+     "id": "muntgbti0wr51",
+     "date": "2027-02-09",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "muntgkgzlwtax"
+    },
+    {
+     "id": "muntggugv0jjx",
+     "date": "2027-02-12",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "muntgkgzlwtax"
+    }
+   ],
+   "events": [
+    {
+     "id": "muntfldbh8qkn",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:00"
+    },
+    {
+     "id": "muntgkgzlwtax",
+     "type": "先方返信",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "muntfm14so33g",
+      "muntg1xab1v4e",
+      "muntg3uy2tn93",
+      "muntg5rr4hif6",
+      "muntg8wvol5n5",
+      "muntgbti0wr51",
+      "muntggugv0jjx"
+     ],
+     "answers": {},
+     "at": "2026-09-30 17:01"
+    },
+    {
+     "id": "e0022",
+     "type": "打診",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "muntfm14so33g"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995ald9zy",
+   "vid": "K-18",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-07-30",
+   "decidedOn": "2026-08-03",
+   "notifiedOn": "2026-08-03",
+   "constructionDoneOn": "2027-02-28",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0065",
+     "date": "2027-02-15",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0066",
+     "date": "2027-01-22",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "muntnc8kq89d3",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:06"
+    },
+    {
+     "id": "ldg03124wgw",
+     "type": "先方返信",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a2d35q",
+   "vid": "K-22",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-19",
+   "decidedOn": "2026-08-25",
+   "notifiedOn": "2026-08-25",
+   "constructionDoneOn": "2027-01-31",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2026-12-22",
+    "start": "10:00",
+    "end": "12:00",
+    "slotId": "munsvbpjnvnfj",
+    "on": "2026-09-30",
+    "notified": "",
+    "acked": ""
+   },
+   "slots": [
+    {
+     "id": "munsvbpjnvnfj",
+     "date": "2026-12-22",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "ldg032e15b1",
+     "receivedIn": "munsvmi7ij82e"
+    }
+   ],
+   "events": [
+    {
+     "id": "munsv9znfeysr",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:44"
+    },
+    {
+     "id": "munsvmi7ij82e",
+     "type": "先方返信",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munsvbpjnvnfj"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:45"
+    },
+    {
+     "id": "ldg032e15b1",
+     "type": "打診",
+     "date": "2026-09-25",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "munsvbpjnvnfj"
+     ],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg033agune",
+     "type": "先方返信",
+     "date": "2026-09-25",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munsvbpjnvnfj"
+     ],
+     "answers": {
+      "munsvbpjnvnfj": "○"
+     },
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a392r7",
+   "vid": "K-12",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-20",
+   "decidedOn": "2026-08-25",
+   "notifiedOn": "2026-08-25",
+   "constructionDoneOn": "2027-01-31",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "munt8wa7gcwaq",
+     "date": "2027-01-11",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munt9d6jckdec",
+     "flex": {
+      "type": "mid",
+      "label": "1月中旬",
+      "from": "2027-01-11",
+      "to": "2027-01-20"
+     }
+    },
+    {
+     "id": "s0036",
+     "date": "2027-01-13",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "e0038",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0037",
+     "date": "2027-01-18",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "e0038",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "munt8u3m671zy",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:55"
+    },
+    {
+     "id": "munt9d6jckdec",
+     "type": "先方返信",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munt8wa7gcwaq"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:55"
+    },
+    {
+     "id": "e0038",
+     "type": "打診",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "s0036",
+      "s0037"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a97yk5",
+   "vid": "K-23",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-16",
+   "decidedOn": "2026-09-24",
+   "notifiedOn": "2026-09-24",
+   "constructionDoneOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0047",
+     "date": "2027-01-12",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0048",
+     "date": "2027-02-16",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995awgbsk",
+   "vid": "K-03",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-26",
+   "decidedOn": "2026-09-01",
+   "notifiedOn": "2026-09-01",
+   "constructionDoneOn": "2026-12-31",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2026-11-25",
+    "start": "10:00",
+    "end": "12:00",
+    "slotId": "s0010",
+    "on": "2026-10-21",
+    "notified": "2026-10-21",
+    "acked": "2026-10-21"
+   },
+   "slots": [
+    {
+     "id": "s0010",
+     "date": "2026-11-25",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg034tbayo",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "e0011",
+     "type": "確定連絡",
+     "date": "2026-10-21",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "s0010"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995ab5q1r",
+   "vid": "K-16",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-10-02",
+   "decidedOn": "2026-10-06",
+   "notifiedOn": "2026-10-06",
+   "constructionDoneOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0049",
+     "date": "2027-02-03",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0050",
+     "date": "2027-01-14",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995adjj6r",
+   "vid": "K-27",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-31",
+   "decidedOn": "2026-09-07",
+   "notifiedOn": "2026-09-07",
+   "constructionDoneOn": "2027-02-01",
+   "constructionStatus": "",
+   "constructionStatusOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2027-01-25",
+    "start": "13:30",
+    "end": "15:30",
+    "slotId": "ldg036704o2",
+    "on": "2026-10-20",
+    "notified": "2026-10-20",
+    "acked": "2026-10-20"
+   },
+   "slots": [
+    {
+     "id": "ldg036704o2",
+     "date": "2027-01-25",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "e0001",
+     "receivedIn": "ldg039utgzd"
+    },
+    {
+     "id": "ldg0370efwp",
+     "date": "2027-01-26",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "ldg039utgzd"
+    },
+    {
+     "id": "ldg038dgzqg",
+     "date": "2027-01-27",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "ldg039utgzd"
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg035j87rx",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg039utgzd",
+     "type": "先方返信",
+     "date": "2026-09-25",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "ldg036704o2",
+      "ldg0370efwp",
+      "ldg038dgzqg"
+     ],
+     "answers": {},
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "e0001",
+     "type": "打診",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "ldg036704o2"
+     ],
+     "at": "2026-10-22 12:00"
+    },
+    {
+     "id": "e0002",
+     "type": "確定連絡",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "ldg036704o2"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995ai20sk",
+   "vid": "K-07",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-24",
+   "decidedOn": "2026-08-31",
+   "notifiedOn": "2026-08-31",
+   "constructionDoneOn": "2026-11-30",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2026-10-16",
+    "start": "14:00",
+    "end": "16:00",
+    "slotId": "ldg042t18fu",
+    "on": "2026-10-13",
+    "notified": "2026-10-13",
+    "acked": "2026-10-13"
+   },
+   "slots": [
+    {
+     "id": "ldg04159zfx",
+     "date": "2026-10-08",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "ldg044tlohy"
+    },
+    {
+     "id": "ldg042t18fu",
+     "date": "2026-10-16",
+     "start": "14:00",
+     "end": "16:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "l14018io7x4",
+     "receivedIn": "ldg044tlohy"
+    },
+    {
+     "id": "ldg043r8obi",
+     "date": "2026-10-22",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "ldg044tlohy"
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg0409g82x",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg044tlohy",
+     "type": "先方返信",
+     "date": "2026-09-25",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "ldg04159zfx",
+      "ldg042t18fu",
+      "ldg043r8obi"
+     ],
+     "answers": {},
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "l14018io7x4",
+     "type": "打診",
+     "date": "2026-10-06",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "ldg042t18fu"
+     ],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l14019beo5v",
+     "type": "先方返信",
+     "date": "2026-10-06",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "ldg042t18fu"
+     ],
+     "answers": {
+      "ldg042t18fu": "○"
+     },
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l140204sq44",
+     "type": "打診",
+     "date": "2026-10-08",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "ldg042t18fu"
+     ],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l140214ora4",
+     "type": "先方返信",
+     "date": "2026-10-13",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "ldg042t18fu"
+     ],
+     "answers": {
+      "ldg042t18fu": "○"
+     },
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l140228ar5y",
+     "type": "確定連絡",
+     "date": "2026-10-13",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995ag519d",
+   "vid": "K-06",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-27",
+   "decidedOn": "2026-09-01",
+   "notifiedOn": "2026-09-01",
+   "constructionDoneOn": "",
+   "constructionStatus": "調整中",
+   "constructionStatusOn": "2026-09-16",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0061",
+     "date": "2027-02-15",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0062",
+     "date": "2027-01-28",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "muntygzj8w6cd",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:15"
+    },
+    {
+     "id": "ldg045hzcg2",
+     "type": "先方返信",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995avwrsr",
+   "vid": "K-13",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-25",
+   "decidedOn": "2026-09-01",
+   "notifiedOn": "2026-09-01",
+   "constructionDoneOn": "2027-02-28",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "munt6mcfgphuk",
+     "date": "2027-01-27",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "e0020",
+     "receivedIn": "munt75ix1bekq"
+    },
+    {
+     "id": "munt6wehw4a5m",
+     "date": "2027-01-28",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munt75ix1bekq"
+    },
+    {
+     "id": "munt6zye663ck",
+     "date": "2027-01-29",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munt75ix1bekq"
+    }
+   ],
+   "events": [
+    {
+     "id": "munt6ipxpumt3",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:53"
+    },
+    {
+     "id": "munt75ix1bekq",
+     "type": "先方返信",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munt6mcfgphuk",
+      "munt6wehw4a5m",
+      "munt6zye663ck"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:54"
+    },
+    {
+     "id": "e0020",
+     "type": "打診",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "munt6mcfgphuk"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a1vnt1",
+   "vid": "K-02",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-26",
+   "decidedOn": "2026-09-07",
+   "notifiedOn": "2026-09-07",
+   "constructionDoneOn": "2026-10-30",
+   "constructionStatus": "",
+   "constructionStatusOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0024",
+     "date": "2026-11-10",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0025",
+     "date": "2026-11-16",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0026",
+     "date": "2026-11-12",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg0468ruuc",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a1fvua",
+   "vid": "K-41",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-26",
+   "decidedOn": "2026-09-01",
+   "notifiedOn": "2026-09-01",
+   "constructionDoneOn": "2027-01-31",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2027-01-08",
+    "start": "14:00",
+    "end": "16:00",
+    "slotId": "munswyu3ybjay",
+    "on": "2026-10-05",
+    "notified": "2026-10-05",
+    "acked": ""
+   },
+   "slots": [
+    {
+     "id": "munswhnf27t3r",
+     "date": "2027-01-06",
+     "start": "14:00",
+     "end": "16:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munsx5mfrqhlq"
+    },
+    {
+     "id": "munswtami9r9i",
+     "date": "2027-01-07",
+     "start": "14:00",
+     "end": "16:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munsx5mfrqhlq"
+    },
+    {
+     "id": "munswyu3ybjay",
+     "date": "2027-01-08",
+     "start": "14:00",
+     "end": "16:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "l14023lcyqn",
+     "receivedIn": "munsx5mfrqhlq"
+    }
+   ],
+   "events": [
+    {
+     "id": "munswfhr3wnui",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:45"
+    },
+    {
+     "id": "munsx5mfrqhlq",
+     "type": "先方返信",
+     "date": "2026-09-17",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munswhnf27t3r",
+      "munswtami9r9i",
+      "munswyu3ybjay"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:46"
+    },
+    {
+     "id": "l14023lcyqn",
+     "type": "確定連絡",
+     "date": "2026-10-05",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "munswyu3ybjay"
+     ],
+     "at": "2026-10-14 14:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a93aqo",
+   "vid": "K-19",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-31",
+   "decidedOn": "2026-09-07",
+   "notifiedOn": "2026-09-07",
+   "constructionDoneOn": "2027-02-28",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "munszzyq33ej0",
+     "date": "2027-01-19",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "e0019",
+     "receivedIn": "munt0wqmowio2"
+    },
+    {
+     "id": "munt0hsm66p2b",
+     "date": "2027-01-20",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munt0wqmowio2"
+    },
+    {
+     "id": "munt0ignzzlgc",
+     "date": "2027-01-26",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munt0wqmowio2"
+    },
+    {
+     "id": "munt0t8vszm4n",
+     "date": "2027-01-27",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munt0wqmowio2"
+    }
+   ],
+   "events": [
+    {
+     "id": "munszzey6b9wk",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:48"
+    },
+    {
+     "id": "munt0wqmowio2",
+     "type": "先方返信",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "munszzyq33ej0",
+      "munt0hsm66p2b",
+      "munt0ignzzlgc",
+      "munt0t8vszm4n"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:49"
+    },
+    {
+     "id": "ldg04738oi8",
+     "type": "連絡",
+     "date": "2026-09-24",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "l14024eokgr",
+     "type": "連絡",
+     "date": "2026-10-01",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "l14025degts",
+     "type": "連絡",
+     "date": "2026-10-13",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [],
+     "at": "2026-10-14 14:00"
+    },
+    {
+     "id": "e0019",
+     "type": "打診",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "munszzyq33ej0"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995agqz5f",
+   "vid": "K-34",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-21",
+   "decidedOn": "2026-09-15",
+   "notifiedOn": "2026-09-15",
+   "constructionDoneOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0051",
+     "date": "2027-01-21",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0052",
+     "date": "2027-01-06",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a3v6ux",
+   "vid": "K-49",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-31",
+   "decidedOn": "2026-09-07",
+   "notifiedOn": "2026-09-07",
+   "constructionDoneOn": "2027-02-26",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0057",
+     "date": "2027-02-15",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0058",
+     "date": "2027-01-05",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg048oyd57",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg049pxeu8",
+     "type": "先方返信",
+     "date": "2026-09-29",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995aj7c37",
+   "vid": "K-26",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-28",
+   "decidedOn": "2026-09-07",
+   "notifiedOn": "2026-09-07",
+   "constructionDoneOn": "2027-02-15",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2027-02-22",
+    "start": "15:30",
+    "end": "17:30",
+    "slotId": "s0012",
+    "on": "2026-10-22",
+    "notified": "2026-10-22",
+    "acked": "2026-10-22"
+   },
+   "slots": [
+    {
+     "id": "s0012",
+     "date": "2027-02-22",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "munto2kyoopeb",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:07"
+    },
+    {
+     "id": "muntoesmu4bbo",
+     "type": "先方返信",
+     "date": "2026-09-28",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [],
+     "answers": {},
+     "at": "2026-09-30 17:07"
+    },
+    {
+     "id": "e0013",
+     "type": "確定連絡",
+     "date": "2026-10-22",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "s0012"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995au5ug6",
+   "vid": "K-11",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-27",
+   "decidedOn": "2026-09-07",
+   "notifiedOn": "2026-09-07",
+   "constructionDoneOn": "2027-02-28",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": {
+    "date": "2027-02-09",
+    "start": "10:00",
+    "end": "12:00",
+    "slotId": "s0008",
+    "on": "2026-10-21",
+    "notified": "2026-10-21",
+    "acked": "2026-10-21"
+   },
+   "slots": [
+    {
+     "id": "ldg05050mgi",
+     "date": "",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "munta86sl72iq",
+     "flex": {
+      "type": "any",
+      "label": "財団に一任（いつでも可）",
+      "from": "",
+      "to": ""
+     }
+    },
+    {
+     "id": "s0008",
+     "date": "2027-02-09",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "munt9zih7znck",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 16:56"
+    },
+    {
+     "id": "munta86sl72iq",
+     "type": "先方返信",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "ldg05050mgi"
+     ],
+     "answers": {},
+     "at": "2026-09-30 16:56"
+    },
+    {
+     "id": "e0009",
+     "type": "確定連絡",
+     "date": "2026-10-21",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "s0008"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995amyjvs",
+   "vid": "K-31",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-08-27",
+   "decidedOn": "2026-09-07",
+   "notifiedOn": "2026-09-07",
+   "constructionDoneOn": "2026-10-31",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0027",
+     "date": "2026-11-10",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0028",
+     "date": "2026-11-16",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0029",
+     "date": "2026-11-12",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg051yedm7",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995ailpg6",
+   "vid": "K-28",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-14",
+   "decidedOn": "2026-10-02",
+   "notifiedOn": "2026-10-02",
+   "constructionDoneOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0043",
+     "date": "2027-01-19",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0044",
+     "date": "2027-01-20",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995awcl3k",
+   "vid": "K-21",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-15",
+   "decidedOn": "2026-09-24",
+   "notifiedOn": "2026-09-24",
+   "constructionDoneOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0045",
+     "date": "2027-02-22",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0046",
+     "date": "2027-01-18",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995algw2o",
+   "vid": "K-51",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-16",
+   "decidedOn": "2026-09-24",
+   "notifiedOn": "2026-09-24",
+   "constructionDoneOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0073",
+     "date": "2027-02-22",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0074",
+     "date": "2027-01-18",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995alh3b2",
+   "vid": "K-43",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-04",
+   "decidedOn": "2026-09-09",
+   "notifiedOn": "2026-09-09",
+   "constructionDoneOn": "2027-02-20",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "muntwmjhboi6h",
+     "date": "2027-01-26",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "muntx36ls2c4g"
+    },
+    {
+     "id": "muntwwja10v6b",
+     "date": "2027-01-27",
+     "start": "14:00",
+     "end": "16:00",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "e0021",
+     "receivedIn": "muntx36ls2c4g"
+    },
+    {
+     "id": "muntwythnf58b",
+     "date": "2027-01-28",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "muntx36ls2c4g"
+    }
+   ],
+   "events": [
+    {
+     "id": "muntvzyelci95",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-09-30 17:13"
+    },
+    {
+     "id": "muntx36ls2c4g",
+     "type": "先方返信",
+     "date": "2026-09-26",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "muntwmjhboi6h",
+      "muntwwja10v6b",
+      "muntwythnf58b"
+     ],
+     "answers": {},
+     "at": "2026-09-30 17:14"
+    },
+    {
+     "id": "ldg052rlxkr",
+     "type": "先方返信",
+     "date": "2026-09-17",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "e0021",
+     "type": "打診",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "muntwwja10v6b"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995aao34i",
+   "vid": "K-39",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-07",
+   "decidedOn": "2026-09-09",
+   "notifiedOn": "2026-09-09",
+   "constructionDoneOn": "",
+   "constructionStatus": "調整中",
+   "constructionStatusOn": "2026-09-29",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0067",
+     "date": "2027-02-08",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0068",
+     "date": "2027-02-12",
+     "start": "13:30",
+     "end": "17:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg053hd89q",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg0547pqoa",
+     "type": "先方返信",
+     "date": "2026-09-29",
+     "method": "メール",
+     "dir": "受信",
+     "later": true,
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995azk2tz",
+   "vid": "K-25",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "",
+   "decidedOn": "",
+   "notifiedOn": "",
+   "constructionDoneOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [],
+   "events": [],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995a8l7bu",
+   "vid": "K-30",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-03",
+   "decidedOn": "2026-09-09",
+   "notifiedOn": "2026-09-09",
+   "constructionDoneOn": "2027-02-28",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0041",
+     "date": "2027-02-09",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0042",
+     "date": "2027-01-06",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg055hphpk",
+     "type": "打診",
+     "date": "2026-09-15",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg056d9avj",
+     "type": "打診",
+     "date": "2026-09-24",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995aiobi9",
+   "vid": "K-37",
+   "kind": "現地",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-04",
+   "decidedOn": "2026-09-09",
+   "notifiedOn": "2026-09-09",
+   "constructionDoneOn": "2027-02-28",
+   "constructionStatus": "",
+   "constructionStatusOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "ldg058z9p0n",
+     "date": "2027-01-27",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "ldg0612dvwc"
+    },
+    {
+     "id": "ldg05919j9l",
+     "date": "2027-02-02",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "e0023",
+     "receivedIn": "ldg0612dvwc"
+    },
+    {
+     "id": "ldg0604pj47",
+     "date": "2027-02-03",
+     "start": "",
+     "end": "",
+     "source": "先方",
+     "answer": "○",
+     "sentIn": "",
+     "receivedIn": "ldg0612dvwc"
+    }
+   ],
+   "events": [
+    {
+     "id": "ldg057p1cka",
+     "type": "打診",
+     "date": "2026-09-16",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [],
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "ldg0612dvwc",
+     "type": "先方返信",
+     "date": "2026-09-30",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "ldg058z9p0n",
+      "ldg05919j9l",
+      "ldg0604pj47"
+     ],
+     "answers": {},
+     "at": "2026-10-01 12:00"
+    },
+    {
+     "id": "e0023",
+     "type": "打診",
+     "date": "2026-10-20",
+     "method": "メール",
+     "dir": "送信",
+     "slotIds": [
+      "ldg05919j9l"
+     ],
+     "at": "2026-10-22 12:00"
+    }
+   ],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995avdy42",
+   "vid": "K-15",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-14",
+   "decidedOn": "2026-09-28",
+   "notifiedOn": "2026-09-28",
+   "constructionDoneOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0075",
+     "date": "2027-01-19",
+     "start": "15:30",
+     "end": "17:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0076",
+     "date": "2027-01-20",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "muno995aw5lne",
+   "vid": "K-29",
+   "kind": "Web",
+   "purpose": "現地調査",
+   "statusOverride": "",
+   "appliedOn": "2026-09-28",
+   "decidedOn": "2026-10-02",
+   "notifiedOn": "2026-10-02",
+   "constructionDoneOn": "",
+   "doneOn": "",
+   "reportDraftOn": "",
+   "reportDoneOn": "",
+   "phase": "",
+   "snoozeUntil": "",
+   "fixed": null,
+   "slots": [
+    {
+     "id": "s0053",
+     "date": "2027-01-21",
+     "start": "13:30",
+     "end": "15:30",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    },
+    {
+     "id": "s0054",
+     "date": "2027-01-05",
+     "start": "10:00",
+     "end": "12:00",
+     "source": "当方",
+     "answer": "未回答",
+     "sentIn": "",
+     "receivedIn": ""
+    }
+   ],
+   "events": [],
+   "createdAt": "2026-09-30 14:35",
+   "updatedAt": "2026-10-14 14:00",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  }
+ ],
+ "schedules": [
+  {
+   "id": "sch-0079",
+   "date": "2026-11-02",
+   "start": "",
+   "end": "",
+   "title": "講習会（高度化法）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0080",
+   "date": "2026-11-06",
+   "start": "",
+   "end": "",
+   "title": "技能技術研修会",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0081",
+   "date": "2026-11-09",
+   "start": "",
+   "end": "",
+   "title": "技能技術研修会",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0082",
+   "date": "2026-11-11",
+   "start": "",
+   "end": "",
+   "title": "講習会（高度化法）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0083",
+   "date": "2026-11-15",
+   "start": "",
+   "end": "",
+   "title": "技能技術研修会",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0084",
+   "date": "2026-11-24",
+   "start": "",
+   "end": "",
+   "title": "講習会（高度化法）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0085",
+   "date": "2026-12-01",
+   "start": "",
+   "end": "",
+   "title": "講習会（高度化法）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0086",
+   "date": "2026-12-08",
+   "start": "",
+   "end": "",
+   "title": "講習会（高度化法）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0087",
+   "date": "2026-12-14",
+   "start": "",
+   "end": "",
+   "title": "講習会（高度化法）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0088",
+   "date": "2027-01-29",
+   "start": "",
+   "end": "",
+   "title": "講習会（高度化法）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0089",
+   "date": "2026-10-23",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0090",
+   "date": "2026-10-30",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0091",
+   "date": "2026-11-04",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0092",
+   "date": "2026-11-13",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0093",
+   "date": "2026-11-20",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0094",
+   "date": "2026-11-27",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0095",
+   "date": "2026-12-04",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0096",
+   "date": "2026-12-11",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0097",
+   "date": "2026-12-18",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0098",
+   "date": "2026-12-25",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0099",
+   "date": "2026-12-28",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0100",
+   "date": "2027-01-04",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0101",
+   "date": "2027-01-15",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0102",
+   "date": "2027-01-22",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0103",
+   "date": "2027-01-28",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0104",
+   "date": "2027-02-05",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0105",
+   "date": "2027-02-12",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0106",
+   "date": "2027-02-19",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  },
+  {
+   "id": "sch-0107",
+   "date": "2027-02-26",
+   "start": "",
+   "end": "",
+   "title": "空き日（検査を入れない）",
+   "memo": "",
+   "_ts": 1792638000000,
+   "_by": "初期データ"
+  }
+ ],
+ "deleted": {}
+}
