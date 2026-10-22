@@ -1,10 +1,9 @@
 {
  "schema": "lib-share-1",
- "updatedAt": "2026-10-22T06:21:49.086Z",
+ "updatedAt": "2026-10-22T06:45:23.052Z",
  "cases": [
   {
    "id": "muno9959jdvlf",
-   "vid": "K-42",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -77,7 +76,6 @@
   },
   {
    "id": "muno99597hztg",
-   "vid": "K-20",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -134,7 +132,6 @@
   },
   {
    "id": "muno9959rm58b",
-   "vid": "K-01",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -149,7 +146,15 @@
    "reportDoneOn": "",
    "phase": "",
    "snoozeUntil": "",
-   "fixed": null,
+   "fixed": {
+    "date": "2027-02-10",
+    "start": "13:30",
+    "end": "15:30",
+    "slotId": "s0039",
+    "on": "2026-10-22",
+    "notified": "2026-10-22",
+    "acked": "2026-10-22"
+   },
    "slots": [
     {
      "id": "ldg004mt23m",
@@ -171,11 +176,11 @@
      "id": "s0039",
      "date": "2027-02-10",
      "start": "13:30",
-     "end": "17:00",
+     "end": "15:30",
      "source": "当方",
-     "answer": "未回答",
+     "answer": "○",
      "sentIn": "e0040",
-     "receivedIn": ""
+     "receivedIn": "e0900"
     }
    ],
    "events": [
@@ -210,16 +215,29 @@
       "s0039"
      ],
      "at": "2026-10-22 12:00"
+    },
+    {
+     "id": "e0900",
+     "type": "先方返信",
+     "date": "2026-10-22",
+     "method": "メール",
+     "dir": "受信",
+     "slotIds": [
+      "s0039"
+     ],
+     "answers": {
+      "s0039": "○"
+     },
+     "at": "2026-10-22 15:45"
     }
    ],
    "createdAt": "2026-09-30 14:35",
    "updatedAt": "2026-10-14 14:00",
-   "_ts": 1792638000000,
-   "_by": "初期データ"
+   "_ts": 1792651500000,
+   "_by": "S"
   },
   {
    "id": "muno9959jm271",
-   "vid": "K-46",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -283,7 +301,6 @@
   },
   {
    "id": "muno995ai4hu2",
-   "vid": "K-24",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -365,7 +382,6 @@
   },
   {
    "id": "muno995a2glsc",
-   "vid": "K-09",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -456,7 +472,6 @@
   },
   {
    "id": "muno995avxi7e",
-   "vid": "K-35",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -571,7 +586,6 @@
   },
   {
    "id": "muno995ay4u96",
-   "vid": "K-32",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -675,7 +689,6 @@
   },
   {
    "id": "muno995aexuvc",
-   "vid": "K-40",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -741,7 +754,6 @@
   },
   {
    "id": "muno995aodofm",
-   "vid": "K-33",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -841,7 +853,6 @@
   },
   {
    "id": "muno995a01pen",
-   "vid": "K-10",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -898,7 +909,6 @@
   },
   {
    "id": "muno995atn9on",
-   "vid": "K-47",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1006,7 +1016,6 @@
   },
   {
    "id": "muno995akhejf",
-   "vid": "K-38",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1116,7 +1125,6 @@
   },
   {
    "id": "muno995aq76nc",
-   "vid": "K-08",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1182,7 +1190,6 @@
   },
   {
    "id": "muno995a20307",
-   "vid": "K-44",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1264,7 +1271,6 @@
   },
   {
    "id": "muno995a5xlpq",
-   "vid": "K-45",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1346,7 +1352,6 @@
   },
   {
    "id": "muno995a5twkp",
-   "vid": "K-04",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1429,7 +1434,6 @@
   },
   {
    "id": "muno995ahvqjr",
-   "vid": "K-17",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1502,7 +1506,6 @@
   },
   {
    "id": "muno995az576r",
-   "vid": "K-48",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1588,7 +1591,6 @@
   },
   {
    "id": "muno995agvc1t",
-   "vid": "K-36",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1654,7 +1656,6 @@
   },
   {
    "id": "muno995ajw39r",
-   "vid": "K-14",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1698,7 +1699,6 @@
   },
   {
    "id": "muno995asiqp2",
-   "vid": "K-05",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1772,7 +1772,6 @@
   },
   {
    "id": "muno995a37pg7",
-   "vid": "K-50",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1905,7 +1904,6 @@
   },
   {
    "id": "muno995ald9zy",
-   "vid": "K-18",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -1969,7 +1967,6 @@
   },
   {
    "id": "muno995a2d35q",
-   "vid": "K-22",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2058,7 +2055,6 @@
   },
   {
    "id": "muno995a392r7",
-   "vid": "K-12",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2152,7 +2148,6 @@
   },
   {
    "id": "muno995a97yk5",
-   "vid": "K-23",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2196,7 +2191,6 @@
   },
   {
    "id": "muno995awgbsk",
-   "vid": "K-03",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2259,7 +2253,6 @@
   },
   {
    "id": "muno995ab5q1r",
-   "vid": "K-16",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2303,7 +2296,6 @@
   },
   {
    "id": "muno995adjj6r",
-   "vid": "K-27",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2413,7 +2405,6 @@
   },
   {
    "id": "muno995ai20sk",
-   "vid": "K-07",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2558,7 +2549,6 @@
   },
   {
    "id": "muno995ag519d",
-   "vid": "K-06",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2624,7 +2614,6 @@
   },
   {
    "id": "muno995avwrsr",
-   "vid": "K-13",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2713,7 +2702,6 @@
   },
   {
    "id": "muno995a1vnt1",
-   "vid": "K-02",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2779,7 +2767,6 @@
   },
   {
    "id": "muno995a1fvua",
-   "vid": "K-41",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -2876,7 +2863,6 @@
   },
   {
    "id": "muno995a93aqo",
-   "vid": "K-19",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3003,7 +2989,6 @@
   },
   {
    "id": "muno995agqz5f",
-   "vid": "K-34",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3047,7 +3032,6 @@
   },
   {
    "id": "muno995a3v6ux",
-   "vid": "K-49",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3111,7 +3095,6 @@
   },
   {
    "id": "muno995aj7c37",
-   "vid": "K-26",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3184,7 +3167,6 @@
   },
   {
    "id": "muno995au5ug6",
-   "vid": "K-11",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3275,7 +3257,6 @@
   },
   {
    "id": "muno995amyjvs",
-   "vid": "K-31",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3339,7 +3320,6 @@
   },
   {
    "id": "muno995ailpg6",
-   "vid": "K-28",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3383,7 +3363,6 @@
   },
   {
    "id": "muno995awcl3k",
-   "vid": "K-21",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3427,7 +3406,6 @@
   },
   {
    "id": "muno995algw2o",
-   "vid": "K-51",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3471,7 +3449,6 @@
   },
   {
    "id": "muno995alh3b2",
-   "vid": "K-43",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3570,7 +3547,6 @@
   },
   {
    "id": "muno995aao34i",
-   "vid": "K-39",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3636,7 +3612,6 @@
   },
   {
    "id": "muno995azk2tz",
-   "vid": "K-25",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3659,7 +3634,6 @@
   },
   {
    "id": "muno995a8l7bu",
-   "vid": "K-30",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3722,7 +3696,6 @@
   },
   {
    "id": "muno995aiobi9",
-   "vid": "K-37",
    "kind": "現地",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3813,7 +3786,6 @@
   },
   {
    "id": "muno995avdy42",
-   "vid": "K-15",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
@@ -3857,7 +3829,6 @@
   },
   {
    "id": "muno995aw5lne",
-   "vid": "K-29",
    "kind": "Web",
    "purpose": "現地調査",
    "statusOverride": "",
